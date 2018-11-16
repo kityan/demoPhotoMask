@@ -1,0 +1,41 @@
+@import 'vars';
+
+* {
+  user-select: none;
+  -ms-user-select: none;
+  outline: none;
+}
+
+body {
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  font-family: monospace;
+  font-size: 16px;
+  @extend %flex;
+}
+
+button {
+  min-width: 180px;
+  padding: 10px;
+  margin: 10px;
+  color: #FFF;
+  background: $blue;
+  text-transform: uppercase;
+  border: 2px solid $blue;
+  font-weight: bold;
+}
+
+button:active {
+  border-color: orange;
+}
+
+button.back {
+  background: #FFF;
+  color: $blue;
+}
+
+#app {
+  @extend %flex;
+}

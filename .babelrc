@@ -1,0 +1,28 @@
+{
+    "presets": [
+        [
+            "env",
+            {
+                "targets": {
+                    "ie": 11,
+                    "chrome": 60,
+                    "firefox": 58
+                },
+                "useBuiltIns": false,
+                "loose": false,
+                "spec": false,
+                "uglify": false,
+                "debug": true,
+                "modules": "commonjs",
+                "include": [],
+                "exclude": []
+            }
+        ],
+        [
+            "react"
+        ]
+    ],
+    "plugins": [
+        "transform-class-properties"
+    ]
+}

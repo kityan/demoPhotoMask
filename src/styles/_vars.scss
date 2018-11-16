@@ -1,0 +1,27 @@
+$blue: #06abec;
+
+%flex {
+  flex-direction: row;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+$brdr: 1px dotted #EEE;
+
+%pixiPlaceholder {
+  width: 500px;
+  height: 500px;
+  border: $brdr;
+  box-sizing: border-box;
+  border-right: 0px;
+}
+
+%buttonsPanel {
+  @extend %flex;
+  flex-direction: column;
+  width: 300px;
+  height: 500px;
+  border: $brdr;
+  box-sizing: border-box;
+}

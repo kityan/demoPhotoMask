@@ -1,0 +1,52 @@
+{
+  "extends": [
+    "eslint:recommended"
+  ],
+  "parser": "babel-eslint",
+  "rules": {
+    "quotes": [
+      "warn",
+      "single"
+    ],
+    "no-console": "warn",
+    "no-irregular-whitespace": [
+      "error",
+      {
+        "skipComments": true
+      }
+    ],
+    "no-undef": "off",
+    "no-unused-vars": "off",
+    "no-multi-spaces": "error",
+    "array-bracket-spacing": [
+      "warn",
+      "never"
+    ],
+    "max-lines": [
+      "error",
+      {
+        "max": 250
+      }
+    ],
+    "max-statements": [
+      "error",
+      {
+        "max": 30
+      }
+    ],
+    "prefer-destructuring": [
+      "warn",
+      {
+        "object": true,
+        "array": false
+      }
+    ],
+    "no-await-in-loop": "error",
+    "no-return-await": "error",
+    "require-await": "error"
+  },
+  "parserOptions": {
+    "ecmaVersion": 8,
+    "sourceType": "module"
+  }
+}

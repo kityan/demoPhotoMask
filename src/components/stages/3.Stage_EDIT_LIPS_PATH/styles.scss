@@ -1,0 +1,9 @@
+@import './../../../styles/vars';
+
+.pixiPlacehodler {
+  @extend %pixiPlaceholder;
+}
+
+.buttonsPanel {
+  @extend %buttonsPanel;
+}
