@@ -12,7 +12,7 @@ class Stage_EDIT_LIPS_PATH extends Component {
       this.pixiPlaceholderRef.current,
       this.props.imageBlobURL,
       this.props.imageManipulationParams,
-      this.props.lipsPoints,
+      [...this.props.lipsPoints], // prevent mutation
       this.props.updateLipsPoints
     )
   }

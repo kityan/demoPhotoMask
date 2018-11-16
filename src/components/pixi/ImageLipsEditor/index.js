@@ -178,7 +178,6 @@ function createDragAndDropFor(target, that) {
       } = e.data.getLocalPosition(obj.parent)
       obj.x = x
       obj.y = y
-      that.lips.points = [...that.lips.points]
       that.lips.points[obj.pointIndex] = {
         x,
         y
